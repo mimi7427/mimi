@@ -44,7 +44,7 @@
   .workspace{
       background: rgba(156, 168, 164, 0.418);
       width: 1000px;
-      height: 70vh;
+      height: 55vh;
       margin: auto;
       display: flex;
       margin-top: 40px;
@@ -57,7 +57,7 @@
   .group{
         display: flex;
         width: 200px;
-        height: 70vh;
+        height: 50vh;
         margin-top: 2px;
         background-color:rgb(221, 248, 239);
         border-radius: 10px;
@@ -77,7 +77,7 @@ label{
 #label1{
   background: rgb(229, 235, 147);
   width: 200px;
-  height: 310px;
+  height: 200px;
   position: absolute;
   border-radius: 10px;
   margin-top: 160px;
@@ -85,7 +85,7 @@ label{
 #label2{
   background: rgb(31, 181, 200);
   width: 200px;
-  height: 310px;
+  height: 200px;
   position: absolute;
   border-radius: 10px;
   margin-top: 160px;
@@ -93,7 +93,7 @@ label{
 #label3{
   background: rgb(147, 235, 206);
   width: 200px;
-  height: 310px;
+  height: 200px;
   position: absolute;
   border-radius: 10px;
   margin-top: 160px;
@@ -101,7 +101,7 @@ label{
 #label4{
   background: rgb(204, 202, 66);
   width: 200px;
-  height: 310px;
+  height: 200px;
   position: absolute;
   border-radius: 10px;
   margin-top: 160px;
@@ -130,14 +130,33 @@ label{
 #work-space{
    background: sandybrown;
    height: 50px;
+   border-radius: 5px;
+   margin: auto;
+}
+#work-space .fa.fa-th-large{
+  color: rgb(6, 44, 40);
+  font-size: large;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 #members{
     background: cadetblue;
     height: 50px;  
+    border-radius: 5px;
+   margin: auto;
+}
+#members .fa.fa-users{
+  color: rgb(6, 44, 40);
+  font-size: large;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 .backg{
   background: rgba(130, 156, 156, 0.39);
   display: flex;
+  height: 400px;
+  margin-top: 60px;
+  margin-left: 30px;
 }
 .footer{
   position: fixed;
@@ -149,6 +168,59 @@ label{
    color:  rgb(18, 26, 24);
    
 }
+.backg a{
+  color: blue;
+}
+button{
+  background: rgb(44, 114, 104);
+  border: none;
+  color: whitesmoke;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#st1{
+  width: 250px;
+  height: 150px;
+  background: rgba(255, 99, 71, 0.397);
+  margin-left: 500px;
+}
+#st1 .fa.fa-times{
+  font-size: large;
+}
+.contain1 span{
+  margin-left: 650px;
+}
+.contain1 p{
+  margin-left: 600px;
+}
+.progress .fa.fa-square-o {
+  margin-left: 550px;
+  display: flex;
+  margin-top: 0px;
+  font-size: x-large;
+}
+.done .fa.fa-square-o {
+  margin-left: 550px;
+  display: flex;
+  font-size: x-large;
+}
+.progress p{
+  margin-top: 0px;
+}
+.done p{
+  margin-top: 0px;
+}
+/* .do.doo{
+  background: rgba(19, 49, 114, 0.397);
+
+} */
+/* .do.doo span{
+  margin-left: 600px
+  } */
+
+
 
 
   
